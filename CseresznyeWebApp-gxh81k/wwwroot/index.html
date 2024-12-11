@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Books database</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Books database</h1>
+
+    <p>
+        <input id="titleAdd" type="text" placeholder="Title" />
+        <input id="authorAdd" type="text" placeholder="Author" />
+        <input id="genreAdd" type="text" placeholder="Genre" />
+        <button id="add">Add new book</button>
+    </p>
+
+    <p>
+        <input id="idMod" type="text" placeholder="ID" />
+        <input id="titleMod" type="text" placeholder="Title" />
+        <input id="authorMod" type="text" placeholder="Author" />
+        <input id="genreMod" type="text" placeholder="Genre" />
+        <button id="modify">Modify book</button>
+    </p>
+
+    <p>
+        <input id="id" type="text" placeholder="ID" />
+        <button id="delete">Delete book</button>
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Cover</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>

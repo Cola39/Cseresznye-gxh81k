@@ -1,0 +1,44 @@
+﻿body {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    border-color: fuchsia;
+}
+
+    button:active {
+        background-color: fuchsia;
+        border-color: black;
+        color: white;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+thead {
+    background-color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+img {
+    width: 100px;
+}
